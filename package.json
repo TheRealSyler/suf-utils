@@ -1,0 +1,18 @@
+{
+  "name": "suf-utils",
+  "version": "1.0.0",
+  "description": "A small collection of utility functions",
+  "main": "dist/index.js",
+  "author": "Leonard Grosoli <hileo77@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepack": "del-cli ./dist && tsc -b && suf"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "suf-cli": "^0.3.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  }
+}
